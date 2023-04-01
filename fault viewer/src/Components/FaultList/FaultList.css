@@ -1,0 +1,14 @@
+.fault-list{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.warning-no-data{
+    margin-left: 1rem;
+    font-size: large;
+    color: var(--grey);;
+}

@@ -1,0 +1,21 @@
+.fault-container{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 2.5rem;
+    background-color: var(--grey1);
+    align-items: center;
+    border-radius: .5rem;
+}
+.student-name{
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: large;
+    width: 90%;
+    color: var(--grey);;
+}
+.fault-number{
+    margin-left: 1rem;
+    font-size: large;
+    color: var(--grey);;
+}
