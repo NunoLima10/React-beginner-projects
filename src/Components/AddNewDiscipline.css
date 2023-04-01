@@ -1,0 +1,8 @@
+.new-discipline-container{
+   width: 100vw;
+   height: 15rem;
+   background-color: var(--grey);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
