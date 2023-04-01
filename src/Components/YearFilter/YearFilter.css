@@ -1,0 +1,26 @@
+.filter-container{
+    width: 60%;
+    display: flex;
+    background-color: var(--grey1);
+    padding: 1rem .5rem;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+    align-items: center;
+}
+.filter-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--grey);;
+    width: 93%;
+}
+
+.filter-select{
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 0.4rem;
+    background-color: var(--blue1);
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+}
