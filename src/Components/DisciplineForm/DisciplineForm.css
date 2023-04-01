@@ -6,6 +6,7 @@
     max-width: 40rem;
     height: 15rem;
     gap: 2rem;
+    transition: 1s;
 }
 .form-inputs{
     display: flex;
@@ -23,12 +24,16 @@
     width: 15rem;
 }
 .input-container label {
-     font-size: 1.2rem;
-     font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--grey);;
 }
 .input-container input {
+    color: var(--grey);
+    font-size: medium;
+    background-color: var(--grey2);
     width: 15rem;
-    height: 2rem;
+    height: 2.5rem;
     padding: .2rem;
     border: 3px solid var(--blue1);
     border-radius: .3rem;
@@ -53,7 +58,7 @@
     width: 8rem;
     margin-left: 2rem;
     height: 2.5rem;
-    border-radius: .2rem;
+    border-radius: .6rem;
     border: none; 
     transition: .5s;
     padding: .8rem;
@@ -80,7 +85,7 @@
     width: 12rem;
     margin-left: 2rem;
     height: 2.5rem;
-    border-radius: .2rem;
+    border-radius: .6rem;
     border: none; 
     transition: .5s;
     padding: .8rem;

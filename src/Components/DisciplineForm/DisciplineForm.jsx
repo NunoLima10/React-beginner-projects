@@ -10,7 +10,10 @@ const DisciplineForm = ({ onSaveForm }) => {
 
     function SubmitForm(event) {
         event.preventDefault();
-        let discipline = { name: disciplineInput, grades: gradesInput, date: dateInput }
+        let discipline = { name: disciplineInput, grade: gradesInput, date: dateInput }
+        setDisciplineInput("")
+        setGradesInput("")
+        setDateInput("")
         onSaveForm(discipline)
         setIsOpen(false)
     }
@@ -28,7 +31,7 @@ const DisciplineForm = ({ onSaveForm }) => {
                 </div>
                 <div className="input-container">
                     <label>Data</label>
-                    <input type={"date"} value={dateInput} onChange={(e) => setDateInput(e.target.value)}></input>
+                    <input type={"date"} value={dateInput} onChange={(e) => setDateInput(new Date(e.target.value))}></input>
                 </div>
             </div>
             <div className="form-actions">

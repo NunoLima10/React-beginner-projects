@@ -1,9 +1,9 @@
-import DisciplineForm from "./DisciplineForm"
+import DisciplineForm from "../DisciplineForm/DisciplineForm"
 
 import "./AddNewDiscipline.css"
-const AddNewDiscipline = () => {
+const AddNewDiscipline = ({OnNewDiscipline}) => {
   function saveDiscipline(disciplineInfo){
-    console.log(disciplineInfo)
+    OnNewDiscipline(disciplineInfo)
   }
   return (
     <div className="new-discipline-container">

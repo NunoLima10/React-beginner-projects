@@ -1,8 +1,9 @@
 :root{
   --blue1:#65a5d4;
-  --blue2:#316bb5;
-  --grey: #f2f3f4;
-  --grey2: #737573;
+  --blue2:#235da8;
+  --grey: #cacaca;
+  --grey1: #3e3e3e;
+  --grey2: #292929;
 }
 *{
   margin: 0;
@@ -18,6 +19,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--grey2);
 }
 
 code {
