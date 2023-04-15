@@ -1,9 +1,8 @@
 :root{
-  --blue1:#65a5d4;
-  --blue2:#235da8;
-  --grey: #cacaca;
-  --grey1: #3e3e3e;
-  --grey2: #292929;
+  --grey: #bcbcd1;
+  --red: #c21c2a;
+  --blue:#043b83;
+  
 }
 *{
   margin: 0;
@@ -11,7 +10,6 @@
   box-sizing: border-box;
   font-family: 'Space Mono', monospace;
 }
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,14 +17,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--grey2);
-}
-
-#backdrop-root{
-z-index: 10;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.map-container {
+  height: 800px;
+  width: 800px;
+  }

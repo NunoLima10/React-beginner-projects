@@ -1,0 +1,26 @@
+.side-bar-open {
+    background-color: var(--grey);
+    width: 4rem;
+    height: 40rem;
+    padding: 0.2rem 0;
+    position: absolute;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    transition: .8s;
+}
+
+.side-bar-close {
+    background-color: var(--grey);
+    width: 4rem;
+    height: 40rem;
+    position: absolute;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    top: 50%;
+    left: 0%;
+    transform: translate(-90%, -50%);
+    transition: .8s;
+}

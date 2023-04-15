@@ -1,0 +1,11 @@
+.island{
+    width: 100%;
+    cursor: pointer;
+}
+.island g{
+    fill: var(--blue);
+    transition: .5s;
+}
+.island g:hover{
+    fill: var(--red);
+}

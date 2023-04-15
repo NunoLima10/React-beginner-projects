@@ -1,0 +1,31 @@
+.arrow-button{
+   background-color: var(--grey);
+   border-top-right-radius: 1.5rem;
+   border-bottom-right-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border: none;
+   position: relative;
+   width: 2rem;
+   height: 4rem;
+   top: 50%;
+   left: 50%;
+   transform: translate(50%,-50%);
+}
+.arrow{
+    fill: var(--red);
+    width: 2rem;
+    height: 2rem;
+    transform: rotate(180deg);
+    transition: .5s;
+}
+
+.arrow-close{
+    fill: var(--blue);
+    width: 2rem;
+    height: 2rem;
+    transition: .5s;
+    transform: translate(15%,0);
+    
+}
