@@ -9,7 +9,7 @@
     top: 50%;
     left: 0%;
     transform: translate(0%, -50%);
-    transition: .8s;
+    transition: .5s;
 }
 
 .side-bar-close {
@@ -22,5 +22,11 @@
     top: 50%;
     left: 0%;
     transform: translate(-90%, -50%);
-    transition: .8s;
+    transition: .5s;
+}
+.islands-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

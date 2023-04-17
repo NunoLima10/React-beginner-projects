@@ -1,10 +1,10 @@
 import React from 'react'
 import './Island.css'
 
-function Maio() {
+function Maio({onSelect}) {
     return (
-        <svg className='island' viewBox="0 0 190.000000 215.000000">
-            <g transform="translate(0.000000,215.000000) scale(0.080000,-0.0800000)"
+        <svg onClick={() => onSelect() } className='island' viewBox="-20 40 190.000000 160.000000">
+            <g transform="translate(0.000000,215.000000) scale(0.070000,-0.0700000)"
                 fill="#000000" stroke="none">
                 <path d="M810 2037 c0 -8 -9 -22 -20 -32 -16 -14 -20 -31 -20 -76 0 -57 0 -58
 -39 -75 -39 -17 -61 -47 -61 -84 0 -10 -10 -44 -22 -75 -23 -61 -40 -74 -125

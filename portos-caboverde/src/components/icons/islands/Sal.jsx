@@ -1,8 +1,8 @@
 import React from 'react'
 import './Island.css'
-function Sal() {
+function Sal({onSelect}) {
     return (
-        <svg className='island' viewBox="0 80 150.000000 160.000000">
+        <svg onClick={() => onSelect() } className='island' viewBox="0 80 150.000000 160.000000">
             <g transform="translate(0.000000,260.000000) scale(0.0800000,-0.0800000)"
                 fill="#000000" stroke="none">
                 <path d="M850 2036 c0 -7 -12 -18 -27 -24 -55 -20 -96 -32 -115 -32 -17 0 -61

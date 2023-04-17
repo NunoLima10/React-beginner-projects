@@ -1,9 +1,9 @@
 import React from 'react'
 import './Island.css'
 
-function Fogo() {
+function Fogo({onSelect}) {
     return (
-        <svg className='island' viewBox="0 0 155.000000 185.000000">
+        <svg onClick={() => onSelect() } className='island' viewBox="0 0 155.000000 185.000000">
             <g transform="translate(0.000000,185.000000) scale(0.100000,-0.100000)"
                 fill="#000000" stroke="none">
                 <path d="M780 1585 c0 -20 -74 -54 -116 -55 -18 0 -38 -8 -49 -20 -9 -10 -33

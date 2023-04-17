@@ -1,9 +1,9 @@
 import React from 'react'
 import './Island.css'
 
-const SaoNicolao = () => {
+const SaoNicolao = ({onSelect}) => {
     return (
-        <svg className='island' viewBox="0 0 255.000000 195.000000">
+        <svg onClick={() => onSelect() } className='island' viewBox="0 0 255.000000 195.000000">
             <g transform="translate(0.000000,195.000000) scale(0.100000,-0.100000)"
                 fill="#000000" stroke="none">
                 <path d="M550 1537 c0 -8 -27 -23 -72 -38 -40 -13 -83 -34 -96 -46 -13 -14

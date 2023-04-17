@@ -1,8 +1,8 @@
 import React from 'react'
 import './Island.css'
-export const SaoVicente = () => {
+const SaoVicente = ({onSelect}) => {
     return (
-        <svg className='island' viewBox="0 0 195.000000 185.000000">
+        <svg onClick={() => onSelect() } className='island' viewBox="0 0 195.000000 185.000000">
             <g transform="translate(0.000000,185.000000) scale(0.100000,-0.100000)"
                 fill="#000000" stroke="none">
                 <path d="M907 1430 c-5 -19 -49 -44 -98 -54 -16 -4 -29 -14 -33 -28 -9 -36 -7
@@ -21,3 +21,4 @@ l0 34 -89 0 c-80 0 -89 -2 -94 -20z"/>
         </svg>
     )
 }
+export default SaoVicente

@@ -1,8 +1,9 @@
 import React from 'react'
 import './Island.css'
-function Brava() {
+function Brava({onSelect}) {
+
     return (
-        <svg className='island' viewBox="-10 50 125.000000 100.000000">
+        <svg onClick={() => onSelect() } className='island' viewBox="-10 50 125.000000 100.000000">
             <g transform="translate(0.000000,155.000000) scale(0.080000,-0.080000)"
                 fill="#000000" stroke="none">
                 <path d="M730 1167 c-14 -31 -18 -32 -85 -38 -43 -3 -86 -14 -112 -27 -27 -14

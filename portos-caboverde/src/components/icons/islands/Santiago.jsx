@@ -1,8 +1,8 @@
 import React from 'react'
 import './Island.css'
-function Santiago() {
+function Santiago({onSelect}) {
     return (
-        <svg className='island' viewBox="-20 0 210.000000 260.000000">
+        <svg onClick={() => onSelect() } className='island' viewBox="-20 0 210.000000 260.000000">
             <g transform="translate(0.000000,260.000000) scale(0.0800000,-0.080000)"
                 fill="#000000" stroke="none">
                 <path d="M183 2507 c-37 -11 -72 -38 -73 -59 0 -4 12 -13 28 -20 37 -18 37

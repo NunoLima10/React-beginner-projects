@@ -1,9 +1,13 @@
 import React from 'react'
 import './Arrow.css'
 
-const Arrow = ({ isOpen, setIsOpen }) => {
+const Arrow = ({ isOpen, setIsOpen, onClose }) => {
+    function toggle(){
+        onClose()
+        setIsOpen(!isOpen)
+    }
     return (
-        <button className='arrow-button' onClick={() => setIsOpen(!isOpen)}>
+        <button className='arrow-button' onClick={() => toggle() }>
             <svg className={isOpen ? "arrow" : "arrow-close"} viewBox="0 0 492.004 492.004" fill="#000000" width="1.8rem" height="1.8rem">
                 <path className='arrow-line' d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12 
                          c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028 
